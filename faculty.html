@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/faculty.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title> Facult </title>
+</head>
+
+<body>
+    <div class="container mainfaculty ">
+
+        <form action="facultyserch.html" method="post">
+            <div class="text-center fs-2">
+                Faculty
+            </div>
+            <div class="input-group my-search" style="font-size: x-large;">
+                Student Id : <input type="search" class="form-control rounded " placeholder="Enter Student Id" aria-describedby="search-addon" name="sid" id="sid" />
+                <input type="submit" class="btn btn-outline-primary" value="Search">
+            </div>
+        </form>
+
+        <form action="newstudent.html" method="post">
+            <button class="btn btn-primary my-add" type="submit">Add New Student</button>
+        </form>
+
+
+        <div class="noticeaicti m-4">
+            <div class="container" style=" display: flex; font-size:x-large;">
+                Notice From Industry
+            </div>
+
+            <div class="table align-middle mb-0 bg-white " style="margin-top: 1%;">
+                <table border="1px solid black " class="table-bordered text-center">
+                    <tr>
+                        <th>Industry Name </th>
+                        <th>Notice</th>
+                        <th>Responce To Industry </th>
+                        <th>Circulate To Student</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="industryname " id="industryname "></td>
+                        <td><input type="text" name="industrynotice " id="industrynotice "></td>
+                        <td class="justify-content-md-end">
+                            <input type="file" name="facfile" id="facfile">
+                            <button type="button" class="btn btn-outline-primary">Submit</button>
+                        </td>
+                        <td><input type="button" value="Send "></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name=" " id=" "></td>
+                        <td><input type="text" name=" " id=" "></td>
+                        <td>
+                            <input type="file" name=" " id=" ">
+                            <input type="button" class="btn btn-outline-primary" value="submit "></td>
+                        <td><input type="button" value="Send "></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!--
+            In this Notice we Print Notice From Student2.html
+        -->
+        <div class="noticestudent">
+            <div class="container" style=" display: flex; font-size:x-large;margin-left:2vw;">
+                Notice From Student
+            </div>
+            <div class="studenttable">
+                <table border="1px solid black " class="table-bordered text-center" style="margin-left: 2vw;margin-top: 1%;">
+                    <tr>
+                        <th>Student Id</th>
+                        <th>Stuent Request</th>
+                        <th>View Request</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name=" " id=" "></td>
+                        <td><input type="text" name=" " id=" "></td>
+                        <td>
+                            <a href="viewstudentrequest.html "><input type="button" value="view "></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name=" " id=" "></td>
+                        <td><input type="text" name=" " id=" "></td>
+                        <td>
+                            <a href="viewstudentrequest.html "><input type="button" value="view "></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
+</body>
+
+</html>

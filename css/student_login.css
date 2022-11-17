@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1% 32%;
+}
+
+.main {
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgb(71, 80, 204);
+    padding: 1.25rem 3.125rem;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.main_header {
+    font-size: xx-large;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+}
+
+.college_select,
+.branch_select,
+.submit {
+    font-size: large;
+    margin-top: 20px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.main {
+    background-color: rgb(241, 241, 241);
+    border-radius: 8px;
+    padding-bottom: 20px;
+}
+
+.student {
+    background-color: rgb(241, 241, 241);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+::-webkit-input-placeholder {
+    font-size: larger;
+}
+
+#button {
+    background-color: rgb(71, 80, 204);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+}
+
+@media screen and (max-width:480px) {
+    .main_header {
+        font-size: medium;
+    }
+    .des {
+        font-size: small;
+    }
+    body {
+        margin: 0
+    }
+}
